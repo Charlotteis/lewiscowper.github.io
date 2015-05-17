@@ -481,3 +481,13 @@ body {
 .full-page__centre {
   text-align: center;
 }
+
+/**
+ * No <li> style. Remove bullet points, and padding/margin.
+ */
+
+.list__no-style {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
